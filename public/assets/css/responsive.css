@@ -1,0 +1,89 @@
+
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .tweetbox__input {
+    width: 83%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .tweetbox__input {
+      width: 70%;
+    }
+    .feed {
+      flex: 0.6;
+    }
+    .widgets {
+      flex: 0.2;
+    }
+    .sidebar {
+      min-width: 200px;
+    }
+  }
+
+
+@media screen  and (max-width: 768px) {
+    /* .sidebar {
+        flex: 0.1;
+        min-width: 70px;
+      }
+
+      .post__avatar {
+        padding: 10px;
+    } */
+      .tweetbox__input {
+        width: 80%;
+      }
+
+      .feed {
+        flex: .9;
+        max-width: 100%;
+    }
+    
+      /* .sidebar_menu .menu_items li {
+        display: block;
+      }
+    
+      .sidebar_menu .menu_items li a span:last-child {
+        display: none;
+      } */
+
+      .widgets {
+        flex: 0.2;
+        width: 170px;
+    }
+
+    .followers_body {
+        display: block;
+    }
+    .followers_meta .meta-wrap {
+        display: block;
+    }
+    .widgets
+    {
+        display: none;
+    }
+
+    .sidebar {
+        min-width: 200px;
+      }
+}
+
+@media screen  and (max-width: 576px) {
+    .sidebar {
+        flex: 0.1;
+        min-width: 70px;
+      }
+
+      .post__avatar {
+        padding: 10px;
+    }
+
+    .sidebar_menu .menu_items li {
+        display: block;
+      }
+    
+      .sidebar_menu .menu_items li a span:last-child {
+        display: none;
+      }
+}
